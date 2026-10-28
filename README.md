@@ -1,4 +1,4 @@
-##🌍 Wander Bihar — Full Stack Tourism Platform
+## 🌍 Wander Bihar — Full Stack Tourism Platform
 
 A full-stack web application built on the MERN Architecture, transforming Bihar's monumental cultural heritage into an interactive tourism ecosystem. The platform includes public browsing, user authentication, a wishlist system, a premium subscription flow, and a complete admin dashboard for content management.
 Built as an industrial internship project during a Short-Term Training in Full Stack Development using MERN Stack at C-DAC Patna (ACTS).
@@ -20,29 +20,16 @@ The Solution: Wander Bihar connects Bihar’s rich historical heritage with mode
 
 
 ##🏫 Training Details
-┌──────────────────────────────────────────────────────────────────────────────┐
-│    Detail              |            Info                                     |
-├────────────────────────┬─────────────────────────────────────────────────────┤
-│ Institute              │ Centre for Development of Advanced Computing        │
-│                        │ (C-DAC), Patna                                      │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Program                │ Advanced Computing Training School (ACTS) —         │
-│                        │ Short-Term Training                                 │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Course                 │ Full Stack Development using MERN Stack             │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Duration               │ 8th June 2026 – 10th July 2026 (5 Weeks)            │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Result                 │ Grade A                                             │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Certificate No.        │ C-DAC/PAT/2606/16017                                │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ PRN                    │ 2606807016017                                       │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Registration No.       │ 23105125031                                         │
-├────────────────────────┼─────────────────────────────────────────────────────┤
-│ Candidate Name         │ Pallavi Bharti                                      │
-└────────────────────────┴─────────────────────────────────────────────────────┘
+Detail	Information
+Institute	Centre for Development of Advanced Computing (C-DAC), Patna
+Program	Advanced Computing Training School (ACTS) — Short-Term Training
+Course	Full Stack Development using MERN Stack
+Duration	8th June 2026 – 10th July 2026 (5 Weeks)
+Result	Grade A
+Certificate No.	C-DAC/PAT/2606/16017
+PRN	2606807016017
+Registration No.	23105125031
+Candidate Name	Pallavi Bharti
 
 ## 🚀 System Architecture & Technology Stack
 
@@ -63,23 +50,15 @@ Database
 MongoDB: Stores and organizes application data, including user accounts, tourism destinations, and personalized wishlist information in a flexible NoSQL document   structure.
 
 ## ⚙️ TECHNICAL BREAKDOWN OF CRUD OPERATIONS 
-┌─────────────────────────────────────────────────────────────────────────────────────────────┐
-│     The four foundational operations powering every user interaction in Wander Bihar:       |                               │
-├──────────────────┬────────────────────────────────┬─────────────────────────────────────────┤
-│ CRUD Operation   │ System Action                  │ Frontend/Backend Mechanism              │
-├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
-│ CREATE           │ User Registration, Add         │ POST requests store new user, location, │
-│                  │ Locations, Add Wishlist Items  │ and wishlist data in MongoDB.           │
-├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
-│ READ             │ Display Tourist Places and     │ GET requests fetch tourist destinations │
-│                  │ User Information               │ and user details from the database.     │
-├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
-│ UPDATE           │ Edit Tourist Locations,        │ PUT/PATCH requests modify existing      │
-│                  │ Premium Plans, User Details    │ records through backend API endpoints.  │
-├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
-│ DELETE           │ Remove Locations, Wishlist     │ DELETE requests remove selected         │
-│                  │ Items, and Users               │ records from the database.              │
-└──────────────────┴────────────────────────────────┴─────────────────────────────────────────┘
+
+The four core CRUD operations that manage data and support the functionality of the Wander Bihar tourism platform.
+
+| CRUD Operation | System Action | Frontend/Backend Mechanism |
+|---|---|---|
+| Create | User Registration, Add Tourist Locations, Add Wishlist Items | POST requests submit user and location data to the backend for storage in MongoDB collections. |
+| Read | Display Tourist Places and User Information | GET requests retrieve tourism destinations and user details from the database for display in the interface. |
+| Update | Edit Tourist Locations, Premium Plans, and User Details | PUT/PATCH requests modify existing records in MongoDB through backend API endpoints. |
+| Delete | Remove Tourist Locations, Wishlist Items, and Users | DELETE requests remove selected records or wishlist entries from the database. |
 
 ## ✨ Features
 
