@@ -1,6 +1,8 @@
 ## 🌍 Wander Bihar — Full Stack Tourism Platform
 
-A MERN Stack-based full-stack tourism platform designed to showcase Bihar’s rich cultural heritage and historical destinations through a dynamic and user-friendly interface. The application features secure user authentication, destination browsing, wishlist management, premium subscription services, and an integrated admin dashboard for managing tourism content. Developed as part of the Short-Term Industrial Training in Full Stack Development using MERN Stack at C-DAC Patna (ACTS).
+A MERN Stack-based full-stack tourism platform designed to showcase Bihar’s rich cultural heritage and historical destinations through a dynamic and user-friendly interface. The application features secure user authentication, destination browsing, wishlist management, premium subscription services, and an integrated admin dashboard for managing tourism content.
+
+Developed as part of the Short-Term Industrial Training in Full Stack Development using MERN Stack at C-DAC Patna (ACTS).
 ![Wander Bihar Homepage](./home.png)
 
 ## 🎯 Project Vision & Problem Statement
