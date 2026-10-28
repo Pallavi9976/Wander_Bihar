@@ -104,6 +104,7 @@ Wander Bihar can be further enhanced by integrating advanced technologies and us
 
 ## 📁 Folder Structure
 
+```text
 WANDER_BIHAR/
 │
 ├── BACKEND/
