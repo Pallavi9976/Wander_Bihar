@@ -1,13 +1,16 @@
 ##🌍 Wander Bihar — Full Stack Tourism Platform
+
 A full-stack web application built on the MERN Architecture, transforming Bihar's monumental cultural heritage into an interactive tourism ecosystem. The platform includes public browsing, user authentication, a wishlist system, a premium subscription flow, and a complete admin dashboard for content management.
 Built as an industrial internship project during a Short-Term Training in Full Stack Development using MERN Stack at C-DAC Patna (ACTS).
 
 ## 🎯 Project Vision & Problem Statement
+
 The Challenge: Existing government tourism portals are often static, disconnected, and offer limited personalization. They primarily provide general information without dedicated, personalized spaces for users.
 
 The Solution: Wander Bihar connects Bihar’s rich historical heritage with modern web technology. It transforms traditional tourism browsing into an interactive and personalized experience through user profiles, dynamic database-driven content, and responsive user interfaces. By bringing tourism information, travel resources, and interactive features together on a single platform, it reduces the need to search across multiple websites.
 
 ## 📌 Project Highlights
+
 - 🔐 Secure User Access: JWT-based authentication provides secure login and personalized user sessions.
 - 🗺️ Adaptive Interface: The platform dynamically displays user-specific features after successful authentication.
 - ❤️ Smart Wishlist: Centralized state management enables tourists to save and organize their preferred destinations for future visits.
@@ -100,6 +103,7 @@ MongoDB: Stores and organizes application data, including user accounts, tourism
 - Premium Plan Management: Enables administrators to maintain and update premium subscription plans.
 - Complete CRUD Operations: Supports creating, reading, updating, and deleting records across relevant management modules.
 - Platform Monitoring: Helps administrators oversee tourism content, user information, and essential platform activities.
+
 
 ##🔭 Future Scope & Scalability
 
