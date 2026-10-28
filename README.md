@@ -68,6 +68,7 @@ The four core CRUD operations that manage data and support the functionality of 
 👤 User Features
 
 - Secure Registration & Login: Provides a secure authentication system for users to create accounts and access their personalized profiles.
+- ![Wander Bihar SignUp Page](./SignUp.png)
 - Browse Tourist Destinations: Enables users to discover Bihar’s famous tourist attractions through an organized and user-friendly interface.
 - Explore Bihar Divisions: Displays tourist destinations categorized by divisions, making regional exploration easier.
 - Tourist Place Details: Presents relevant information about tourist destinations to help users explore Bihar’s cultural and historical heritage.
@@ -85,6 +86,7 @@ The four core CRUD operations that manage data and support the functionality of 
 - Premium Plan Management: Enables administrators to maintain and update premium subscription plans.
 - Complete CRUD Operations: Supports creating, reading, updating, and deleting records across relevant management modules.
 - Platform Monitoring: Helps administrators oversee tourism content, user information, and essential platform activities.
+-  ![Wander Bihar Admin Dashboard](./Admin.png)
 
 
 ## 🔭 Future Scope & Scalability
