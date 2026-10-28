@@ -2,6 +2,7 @@
 
 A full-stack web application built on the MERN Architecture, transforming Bihar's monumental cultural heritage into an interactive tourism ecosystem. The platform includes public browsing, user authentication, a wishlist system, a premium subscription flow, and a complete admin dashboard for content management.
 Built as an industrial internship project during a Short-Term Training in Full Stack Development using MERN Stack at C-DAC Patna (ACTS).
+##-![Wander Bihar Homepage](./home.png)
 
 ## 🎯 Project Vision & Problem Statement
 
