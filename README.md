@@ -20,17 +20,18 @@ The Solution: Wander Bihar connects Bihar’s rich historical heritage with mode
 
 
 ## 🏫 Training Details
+| Detail | Info |
+|---|---|
+| Institute | Centre for Development of Advanced Computing (C-DAC), Patna |
+| Program | Advanced Computing Training School (ACTS) — Short-Term Training |
+| Course | Full Stack Development using MERN Stack |
+| Duration | 8th June 2026 – 10th July 2026 (5 Weeks) |
+| Result | Grade A |
+| Certificate No. | C-DAC/PAT/2606/16017 |
+| PRN | 2606807016017 |
+| Registration No. | 23105125031 |
+| Candidate Name | Pallavi Bharti |
 
-Detail	Information
-Institute	Centre for Development of Advanced Computing (C-DAC), Patna
-Program	Advanced Computing Training School (ACTS) — Short-Term Training
-Course	Full Stack Development using MERN Stack
-Duration	8th June 2026 – 10th July 2026 (5 Weeks)
-Result	Grade A
-Certificate No.	C-DAC/PAT/2606/16017
-PRN	2606807016017
-Registration No.	23105125031
-Candidate Name	Pallavi Bharti
 
 ## 🚀 System Architecture & Technology Stack
 
