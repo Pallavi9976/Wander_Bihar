@@ -19,7 +19,8 @@ The Solution: Wander Bihar connects Bihar’s rich historical heritage with mode
 - 📱 Responsive User Experience: A modern, mobile-friendly interface combines engaging visuals with smooth navigation across different devices.
 
 
-##🏫 Training Details
+## 🏫 Training Details
+
 Detail	Information
 Institute	Centre for Development of Advanced Computing (C-DAC), Patna
 Program	Advanced Computing Training School (ACTS) — Short-Term Training
@@ -84,7 +85,7 @@ The four core CRUD operations that manage data and support the functionality of 
 - Platform Monitoring: Helps administrators oversee tourism content, user information, and essential platform activities.
 
 
-##🔭 Future Scope & Scalability
+## 🔭 Future Scope & Scalability
 
 Wander Bihar can be further enhanced by integrating advanced technologies and user-friendly services:
 
@@ -204,7 +205,8 @@ PRN:-2606807016017
 B.Tech – Computer Science & Engineering
 
 
-##🙏 Acknowledgements & Team
+## 🙏 Acknowledgements & Team
+
 We sincerely thank our C-DAC mentors, Ms. Neha Giri and Mr. Aniket, for their valuable guidance and support in developing Wander Bihar. We also appreciate our team members for their collaboration and contributions to the successful completion of this project.
 
 The Development Team (C-DAC Patna Interns):
