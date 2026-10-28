@@ -297,9 +297,3 @@ Special thanks to our mentors for their continuous guidance and support througho
 
 This project was developed for educational and learning purposes as part of the C-DAC Patna MERN Stack Training Program.
 
----
-
-## ⭐ Support
-
-If you like this project, don't forget to **Star ⭐ this repository** on GitHub.
-````
