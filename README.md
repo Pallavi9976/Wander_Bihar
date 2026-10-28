@@ -127,7 +127,7 @@ WANDER_BIHAR/
     │   └── main.jsx
     └── package.json
 
-
+```
 ## ⚙️ Installation & Setup
 
 ## 1. Clone Repository
