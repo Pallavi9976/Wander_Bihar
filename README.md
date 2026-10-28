@@ -45,7 +45,7 @@ Many tourism websites are static, provide limited personalization, and require u
 | Certificate No. | C-DAC/PAT/2606/16017 |
 | PRN | 2606807016017 |
 | Registration No. | 23105125031 |
-| Candidate | **Pallavi Bharti** |
+| Candidate | Pallavi Bharti |
 
 ---
 
