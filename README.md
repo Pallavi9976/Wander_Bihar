@@ -182,23 +182,6 @@ http://localhost:5173
 
 Register a new account or log in using existing credentials.
 
----
-
-# 📸 Screenshots
-
-Include screenshots of:
-
-- Home Page
-- Login Page
-- Registration Page
-- Wishlist
-- Premium Plans
-- Admin Dashboard
-- Manage Users
-- Manage Locations
-
----
-
 ## 👩‍💻 Developer
 
 Pallavi Bharti
