@@ -267,15 +267,14 @@ Include screenshots of:
 
 # 👩‍💻 Developer
 
-**Pallavi Bharti**
+Pallavi Bharti
 
-**Registration No.:** 23105125031
+Registration No.:-23105125031
 
-**PRN:** 2606807016017
+PRN:-2606807016017
 
 B.Tech – Computer Science & Engineering
 
----
 
 # 🙏 Acknowledgements
 
