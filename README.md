@@ -1,200 +1,148 @@
-````markdown
-# 🌍 Wander Bihar — Full Stack Tourism Platform
+##🌍 Wander Bihar — Full Stack Tourism Platform
+A full-stack web application built on the MERN Architecture, transforming Bihar's monumental cultural heritage into an interactive tourism ecosystem. The platform includes public browsing, user authentication, a wishlist system, a premium subscription flow, and a complete admin dashboard for content management.
+Built as an industrial internship project during a Short-Term Training in Full Stack Development using MERN Stack at C-DAC Patna (ACTS).
 
-A full-stack web application developed using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)** to digitally showcase Bihar's rich tourism, culture, and heritage. Wander Bihar provides an interactive platform where users can discover famous destinations, manage wishlists, access premium features, and experience a modern tourism ecosystem through a responsive web application.
+## 🎯 Project Vision & Problem Statement
+The Challenge: Existing government tourism portals are often static, disconnected, and offer limited personalization. They primarily provide general information without dedicated, personalized spaces for users.
 
-This project was developed as part of the **Short-Term Training in Full Stack Development using MERN Stack** conducted at **C-DAC Patna (ACTS)**.
+The Solution: Wander Bihar connects Bihar’s rich historical heritage with modern web technology. It transforms traditional tourism browsing into an interactive and personalized experience through user profiles, dynamic database-driven content, and responsive user interfaces. By bringing tourism information, travel resources, and interactive features together on a single platform, it reduces the need to search across multiple websites.
 
----
+## 📌 Project Highlights
+- 🔐 Secure User Access: JWT-based authentication provides secure login and personalized user sessions.
+- 🗺️ Adaptive Interface: The platform dynamically displays user-specific features after successful authentication.
+- ❤️ Smart Wishlist: Centralized state management enables tourists to save and organize their preferred destinations for future visits.
+- 👑 Premium Membership: A simulated subscription system demonstrates the foundation for future payment integration and monetization.
+- 🛠️ Admin Management Panel: A centralized dashboard enables efficient management of users, tourism locations, and platform content.
+- 📱 Responsive User Experience: A modern, mobile-friendly interface combines engaging visuals with smooth navigation across different devices.
 
-# 🎯 Project Vision & Problem Statement
 
-## The Challenge
+##🏫 Training Details
+┌──────────────────────────────────────────────────────────────────────────────┐
+│    Detail              |            Info                                     |
+├────────────────────────┬─────────────────────────────────────────────────────┤
+│ Institute              │ Centre for Development of Advanced Computing        │
+│                        │ (C-DAC), Patna                                      │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Program                │ Advanced Computing Training School (ACTS) —         │
+│                        │ Short-Term Training                                 │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Course                 │ Full Stack Development using MERN Stack             │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Duration               │ 8th June 2026 – 10th July 2026 (5 Weeks)            │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Result                 │ Grade A                                             │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Certificate No.        │ C-DAC/PAT/2606/16017                                │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ PRN                    │ 2606807016017                                       │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Registration No.       │ 23105125031                                         │
+├────────────────────────┼─────────────────────────────────────────────────────┤
+│ Candidate Name         │ Pallavi Bharti                                      │
+└────────────────────────┴─────────────────────────────────────────────────────┘
 
-Many tourism websites are static, provide limited personalization, and require users to visit multiple platforms to gather travel information. They generally lack interactive features, user-specific content, and centralized management.
+## 🚀 System Architecture & Technology Stack
 
-## Our Solution
+Frontend
 
-**Wander Bihar** is designed as a unified tourism platform that combines destination discovery, secure authentication, premium services, personalized wishlists, and administrative management into one application. The platform delivers a modern and engaging experience for travelers while simplifying tourism management.
+- React.js: Builds a dynamic, component-based user interface, ensuring smooth navigation and an interactive Single Page Application (SPA) experience.
+- HTML5, CSS3 & Bootstrap: Provide the structural foundation, visual styling, and responsive layouts across different devices.
+- Context API: Manages shared application state and keeps wishlist data synchronized across components.
 
----
+Backend
 
-# 📌 Project Highlights
+- Node.js: Powers server-side operations using an efficient, event-driven JavaScript runtime.
+- Express.js: Handles backend routing and RESTful API development, enabling seamless communication between the frontend and database.
+- Security: JWT-based authentication manages secure user access, while Bcrypt.js hashes passwords to protect user credentials.
 
-- 🔐 Secure JWT-based User Authentication
-- 👤 Personalized User Dashboard
-- ❤️ Wishlist Management using Context API
-- 👑 Premium Subscription Module
-- 🛠️ Complete Admin Dashboard
-- 🗺️ Dynamic Tourism Data from MongoDB
-- 📱 Responsive User Interface
-- ⚡ RESTful API Integration
-- 🔄 Full CRUD Operations
+Database
 
----
+MongoDB: Stores and organizes application data, including user accounts, tourism destinations, and personalized wishlist information in a flexible NoSQL document   structure.
 
-# 🏫 Training Details
+## ⚙️ TECHNICAL BREAKDOWN OF CRUD OPERATIONS 
+┌─────────────────────────────────────────────────────────────────────────────────────────────┐
+│     The four foundational operations powering every user interaction in Wander Bihar:       |                               │
+├──────────────────┬────────────────────────────────┬─────────────────────────────────────────┤
+│ CRUD Operation   │ System Action                  │ Frontend/Backend Mechanism              │
+├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
+│ CREATE           │ User Registration, Add         │ POST requests store new user, location, │
+│                  │ Locations, Add Wishlist Items  │ and wishlist data in MongoDB.           │
+├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
+│ READ             │ Display Tourist Places and     │ GET requests fetch tourist destinations │
+│                  │ User Information               │ and user details from the database.     │
+├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
+│ UPDATE           │ Edit Tourist Locations,        │ PUT/PATCH requests modify existing      │
+│                  │ Premium Plans, User Details    │ records through backend API endpoints.  │
+├──────────────────┼────────────────────────────────┼─────────────────────────────────────────┤
+│ DELETE           │ Remove Locations, Wishlist     │ DELETE requests remove selected         │
+│                  │ Items, and Users               │ records from the database.              │
+└──────────────────┴────────────────────────────────┴─────────────────────────────────────────┘
 
-| Detail | Information |
-|--------|-------------|
-| Institute | Centre for Development of Advanced Computing (C-DAC), Patna |
-| Program | Advanced Computing Training School (ACTS) – Short-Term Training |
-| Course | Full Stack Development using MERN Stack |
-| Duration | 8 June 2026 – 10 July 2026 |
-| Grade | A |
-| Certificate No. | C-DAC/PAT/2606/16017 |
-| PRN | 2606807016017 |
-| Registration No. | 23105125031 |
-| Candidate | Pallavi Bharti |
+## ✨ Features
 
----
+👤 User Features
 
-# 🚀 System Architecture & Technology Stack
+- Secure Registration & Login: Provides a secure authentication system for users to create accounts and access their personalized profiles.
+- Browse Tourist Destinations: Enables users to discover Bihar’s famous tourist attractions through an organized and user-friendly interface.
+- Explore Bihar Divisions: Displays tourist destinations categorized by divisions, making regional exploration easier.
+- Tourist Place Details: Presents relevant information about tourist destinations to help users explore Bihar’s cultural and historical heritage.
+- Wishlist Management: Allows users to save and manage their favorite destinations for future visits using `WishlistContext` and `LocalStorage`.
+- Premium Tourist Places: Provides access to exclusive destinations and features through a simulated premium subscription system.
+- Responsive Design: Ensures a smooth browsing experience across desktops, tablets, and mobile devices.
+- Virtual Tour Support: Supports virtual exploration of tourist sites through immersive tour features.
 
-## Frontend
+🛠️ Admin Features
 
-- React.js
-- Vite
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- Axios
-- React Router
-- Context API
+- Admin Dashboard: Provides a centralized interface for monitoring and managing the platform.
+- User Management: Enables administrators to view, update, and remove registered user accounts.
+- Tourist Location Management: Supports adding new destinations, editing existing details, viewing listings, and removing locations through CRUD operations.
+- Premium Feature Management: Allows administrators to manage premium features and control their availability.
+- Premium Plan Management: Enables administrators to maintain and update premium subscription plans.
+- Complete CRUD Operations: Supports creating, reading, updating, and deleting records across relevant management modules.
+- Platform Monitoring: Helps administrators oversee tourism content, user information, and essential platform activities.
 
-### Features
+##🔭 Future Scope & Scalability
 
-- Component-Based Architecture
-- Responsive User Interface
-- Wishlist Management
-- Dynamic Routing
-- Interactive Pages
+Wander Bihar can be further enhanced by integrating advanced technologies and user-friendly services:
 
----
+- AI-Based Travel Recommendations: Suggest destinations based on users’ interests and travel preferences.
+- Google Maps Integration: Provide interactive maps, navigation, and directions to tourist attractions.
+- Hotel & Transport Booking: Enable users to explore and book accommodation and transportation services.
+- Online Ticket Booking: Integrate digital ticketing facilities for monuments and tourist attractions.
+- AI-Powered Chatbot: Offer instant assistance for tourism-related queries and destination information.
+- AR Heritage Experience: Use augmented reality to display virtual reconstructions of historical monuments.
+- Voice Navigation: Support voice-guided directions for convenient and accessible travel.
+- Reviews & Ratings: Allow tourists to share experiences and rate destinations.
+- Multilingual Support: Make tourism information available in multiple regional and international languages.
+- Smart Trip Planner: Generate personalized itineraries based on travel duration, interests, and selected destinations.
 
-## Backend
 
-- Node.js
-- Express.js
-- REST API
-- JWT Authentication
-- Bcrypt.js
-- Multer
+## 📁 Folder Structure
 
-### Backend Responsibilities
-
-- User Authentication
-- Authorization
-- API Development
-- Admin Operations
-- Premium Feature Management
-
----
-
-## Database
-
-- MongoDB
-- Mongoose ODM
-
-The database stores:
-
-- User Information
-- Tourist Locations
-- Premium Plans
-- Premium Features
-- Wishlist Data
-
----
-
-# ⚙️ CRUD Operations
-
-| CRUD | Description |
-|------|-------------|
-| **Create** | User Registration, Add Locations, Add Wishlist |
-| **Read** | Display Tourist Places and User Information |
-| **Update** | Edit Tourist Locations, Premium Plans, User Details |
-| **Delete** | Remove Locations, Wishlist Items, Users |
-
----
-
-# ✨ Features
-
-## 👤 User Features
-
-- Secure Registration & Login
-- Browse Tourist Destinations
-- Explore Bihar Divisions
-- View Tourist Place Details
-- Wishlist Management
-- Premium Tourist Places
-- Responsive Design
-- Virtual Tour Support
-
----
-
-## 🛠️ Admin Features
-
-- Admin Dashboard
-- Manage Users
-- Manage Tourist Locations
-- Manage Premium Features
-- Manage Premium Plans
-- Complete CRUD Operations
-- Platform Monitoring
-
----
-
-# 🔭 Future Scope
-
-The platform can be extended with several advanced features:
-
-- AI-Based Travel Recommendation
-- Google Maps Integration
-- Hotel & Transport Booking
-- Online Ticket Booking
-- AI Chatbot
-- AR Heritage Experience
-- Voice Navigation
-- Reviews & Ratings
-- Multi-language Support
-- Smart Trip Planner
-
----
-
-# 📁 Folder Structure
-
-```text
-Wander_Bihar/
+WANDER_BIHAR/
 │
-├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   ├── index.js
+├── BACKEND/
+│   ├── config/              # Database connection configuration
+│   ├── controllers/         # Business logic (auth, location, payment, premium)
+│   ├── middlewares/         # JWT auth & admin role verification
+│   ├── models/              # Mongoose schemas
+│   ├── routes/              # Express route definitions
+│   ├── index.js             # Entry point / server setup
 │   └── package.json
 │
-├── frontend/
-│   ├── src/
-│   │   ├── admin/
-│   │   ├── Premium/
-│   │   ├── UserLogin/
-│   │   ├── UserDashboard/
-│   │   ├── components/
-│   │   ├── WishlistContext.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-│
-└── README.md
-```
+└── FRONTEND/
+    ├── src/
+    │   ├── admin/           # Admin dashboard pages 
+    │   ├── Premium/         # Premium landing, plans, and payment pages
+    │   ├── UserLogin/       # Login, Forgot Password
+    │   ├── UserDashboard/   # Logged-in user dashboard & wishlist page
+    │   ├── App.jsx          # Route definitions
+    │   ├── WishlistContext.jsx # Global wishlist state (Context API)
+    │   └── main.jsx
+    └── package.json
 
----
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 ## 1. Clone Repository
 
@@ -265,28 +213,26 @@ Include screenshots of:
 
 ---
 
-# 👩‍💻 Developer
+## 👩‍💻 Developer
 
 Pallavi Bharti
-
 Registration No.:-23105125031
-
 PRN:-2606807016017
-
 B.Tech – Computer Science & Engineering
 
 
-# 🙏 Acknowledgements
+##🙏 Acknowledgements & Team
+We sincerely thank our C-DAC mentors, Ms. Neha Giri and Mr. Aniket, for their valuable guidance and support in developing Wander Bihar. We also appreciate our team members for their collaboration and contributions to the successful completion of this project.
 
-This project was developed collaboratively during the **Short-Term Training in Full Stack Development using MERN Stack** at **C-DAC Patna**.
-
-Special thanks to our mentors for their continuous guidance and support throughout the training program.
-
-### Development Team
+The Development Team (C-DAC Patna Interns):
 
 - Harshit Kashyap — Team Leader
 - Pallavi Bharti — Full Stack Developer
 - Shiksha — Developer
 - Rashmi — Developer
 - Anjali — Developer
+
+ ## 📄 License
+
+Wander Bihar was developed as part of an industrial training program for educational purposes. The source code is available for learning, exploration, and academic reference.
 
