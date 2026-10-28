@@ -291,9 +291,3 @@ Special thanks to our mentors for their continuous guidance and support througho
 - Rashmi — Developer
 - Anjali — Developer
 
----
-
-# 📄 License
-
-This project was developed for educational and learning purposes as part of the C-DAC Patna MERN Stack Training Program.
-
